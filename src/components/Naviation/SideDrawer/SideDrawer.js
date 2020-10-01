@@ -12,6 +12,8 @@ const sideDrawer = (props) => {
         attachedStyle = [style.SideDrawer, style.Open];
     }
 
+    console.log("[SideDrawer.js] will update", props.open)
+
     return (
         <React.Fragment>
             <Backdrop show={props.open} clicked={props.closed}/>
