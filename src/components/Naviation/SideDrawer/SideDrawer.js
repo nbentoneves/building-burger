@@ -12,7 +12,7 @@ const sideDrawer = (props) => {
         attachedStyle = [style.SideDrawer, style.Open];
     }
 
-    console.log("[SideDrawer.js] will update", props.open)
+    //console.log("[SideDrawer.js] will update", props.open)
 
     return (
         <React.Fragment>

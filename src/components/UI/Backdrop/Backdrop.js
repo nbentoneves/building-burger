@@ -3,7 +3,7 @@ import style from './Backdrop.module.css'
 
 const backdrop = (props) => {
 
-    console.log("backdrop props", props.show)
+    //console.log("backdrop props", props.show)
 
     return (
         props.show ?
